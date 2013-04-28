@@ -58,6 +58,9 @@ GEM
       railties (~> 3.1)
       warden (~> 1.2.1)
     diff-lcs (1.2.1)
+    draper (0.17.0)
+      actionpack (~> 3.2)
+      activesupport (~> 3.2)
     email_spec (1.4.0)
       launchy (~> 2.1)
       mail (~> 2.2)
@@ -98,6 +101,7 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    method_source (0.8.1)
     mime-types (1.21)
     mongoid (3.1.2)
       activemodel (~> 3.2)
@@ -113,6 +117,10 @@ GEM
     origin (1.0.11)
     orm_adapter (0.4.0)
     polyglot (0.3.3)
+    pry (0.9.12)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
     rack (1.4.5)
@@ -166,6 +174,7 @@ GEM
     simple_form (2.1.0)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
+    slop (3.4.4)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -191,26 +200,29 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  better_errors (>= 0.6.0)
-  binding_of_caller (>= 0.7.1)
-  bootstrap-sass (>= 2.3.0.0)
-  coffee-rails (~> 3.2.1)
-  database_cleaner (>= 0.9.1)
+  better_errors
+  binding_of_caller
+  bootstrap-sass
+  coffee-rails
+  database_cleaner
   decent_decoration
-  devise (>= 2.2.3)
-  email_spec (>= 1.4.0)
-  factory_girl_rails (>= 4.2.0)
-  figaro (>= 0.5.3)
-  haml-rails (>= 0.4)
-  html2haml (>= 1.0.1)
-  hub (>= 1.10.2)
+  decent_exposure
+  devise
+  draper
+  email_spec
+  factory_girl_rails
+  figaro
+  haml-rails
+  html2haml
+  hub
   jquery-rails
-  mongoid (>= 3.1.1)
-  mongoid-rspec (>= 1.6.0)
-  quiet_assets (>= 1.0.1)
-  rails (= 3.2.12)
-  rspec-rails (>= 2.12.2)
-  sass-rails (~> 3.2.3)
-  simple_form (>= 2.0.4)
-  uglifier (>= 1.0.3)
+  mongoid
+  mongoid-rspec
+  pry
+  quiet_assets
+  rails
+  rspec-rails
+  sass-rails
+  simple_form
+  uglifier
   yell-rails
