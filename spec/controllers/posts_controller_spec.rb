@@ -13,6 +13,14 @@ describe PostsController do
       controller.should_not_receive :display_flash_notice
       get 'index'
     end
+
+    it "doesn't show archived posts" do
+      post1 = create(:post)
+      post2 = create(:post, archived: true)
+
+      get :index
+      controller.posts.to_a.should eq [post1]
+    end
   end
 
   describe "POST mark_archived" do
