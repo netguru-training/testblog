@@ -1,8 +1,12 @@
 class PostsController < ApplicationController
   before_filter :authenticate_user!
   expose_decorated(:posts)
+  expose_decorated(:post)
 
   def index
+  end
+
+  def new
   end
 
   def show
@@ -15,6 +19,11 @@ class PostsController < ApplicationController
   end
 
   def create
+    if post.save
+      redirect_to action: :index
+    else
+      render :new
+    end
   end
 
 end

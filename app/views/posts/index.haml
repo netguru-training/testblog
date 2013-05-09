@@ -1,3 +1,9 @@
 %h1
   posts
-  %small= "(#{posts.count})"
+  %small
+    = "(#{posts.count})"
+    = link_to "add new", new_post_path
+
+- posts.each do |post|
+  %li
+    = link_to post.title, post_path(post)
