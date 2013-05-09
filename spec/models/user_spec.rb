@@ -4,7 +4,7 @@ describe User do
   it { should have_field(:nickname) }
   it { should validate_presence_of(:nickname) }
 
-  describe ".to_s" do
+  describe "#to_s" do
     it "returns name if nickname isn't set" do
       user = User.new(name: "john doe")
       user.to_s.should eq "john doe"
