@@ -1,6 +1,8 @@
 require 'spec_helper'
 
 describe User do
+  it { should have_field(:nickname) }
+  it { should validate_presence_of(:nickname) }
 
   before(:each) do
     @attr = {
@@ -98,6 +100,18 @@ describe User do
       @user.encrypted_password.should_not be_blank
     end
 
+  end
+
+  describe ".to_s" do
+    it "returns name if nickname isn't set" do
+      user = User.new(name: "john doe")
+      user.to_s.should eq "john doe"
+    end
+
+    it "returns nickname if it's set" do
+      user = User.new(name: "john doe", nickname: "rambo")
+      user.to_s.should eq "rambo"
+    end
   end
 
 end
