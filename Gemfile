@@ -37,5 +37,6 @@ group :test do
   gem "database_cleaner"
   gem "mongoid-rspec"
   gem "email_spec"
+  gem 'shoulda-matchers'
 end
 
