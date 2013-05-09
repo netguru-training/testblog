@@ -11,6 +11,7 @@ gem "figaro"
 gem "draper"
 gem "decent_exposure"
 gem "decent_decoration"
+gem "pry"
 
 group :assets do
   gem 'sass-rails'
