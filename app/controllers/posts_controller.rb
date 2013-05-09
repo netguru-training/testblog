@@ -9,6 +9,11 @@ class PostsController < ApplicationController
   def new
   end
 
+  def destroy
+    post.destroy
+    render action: :index
+  end
+
   def show
   end
 
