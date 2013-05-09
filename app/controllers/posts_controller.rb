@@ -12,10 +12,7 @@ class PostsController < ApplicationController
   def show
   end
 
-  def destroy
-  end
-
-  def update
+  def mark_archived
   end
 
   def create
