@@ -1,6 +1,7 @@
 ## netguru workshop - test blog
 
 Twoje zadanie na dziś:
+
 1. zrób forka tego repo na swoje konto githubowe
 2. sklonuj swoje repo: `git clone git@github.com:TWOJA_NAZWA_USERA/easyblog.git`
 3. zainstaluj sobie odpowiednie ruby i wykonaj polecenie `bundle`
