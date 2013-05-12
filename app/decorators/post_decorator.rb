@@ -1,3 +1,4 @@
-class PostDecorator < Draper::Base
+class PostDecorator < Draper::Decorator
   decorates :post
+  delegate_all
 end
