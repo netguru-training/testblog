@@ -1,7 +1,8 @@
 require 'spec_helper'
 
 describe PostDecorator do
-  let(:decorated_post) { PostDecorator.new(title: "Game of Thrones III") }
+  let(:post) { build(:post, title: "Game of Thrones III") }
+  let(:decorated_post) { PostDecorator.decorate(post) }
 
   describe ".friendly_title" do
     it "returns title where words are downcased and separated by '-' sign" do
