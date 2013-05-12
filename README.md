@@ -9,6 +9,6 @@ Twoje zadanie na dziś:
 5. napraw failujące specki:
   * `bundle exec rspec`
   * każda naprawiona specka = 1 commit do Twojego repo
-  * nie modyfikujemy specek tylko kdo aplikacji!
+  * nie modyfikujemy specek tylko kod aplikacji!
 6. kiedy już wszystkie specki będą na zielono, a Twoje zmiany będą spushowane na githuba - umieść projekt na heroku
 7. skopiuj link do aplikacji działającej na heroku oraz link do swojego sforkowanego repo i napisz do nas o fakcie ukończenia zadania, podając te linki w treści maila
