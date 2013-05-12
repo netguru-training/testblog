@@ -113,6 +113,9 @@ GEM
       mongoid (>= 3.0.1)
       rake
       rspec (>= 2.9)
+    mongoid_taggable (1.1.1)
+      mongoid (>= 3)
+      rake
     moped (1.4.3)
     multi_json (1.7.3)
     origin (1.0.11)
@@ -222,6 +225,7 @@ DEPENDENCIES
   jquery-rails
   mongoid
   mongoid-rspec
+  mongoid_taggable
   pry
   quiet_assets
   rails

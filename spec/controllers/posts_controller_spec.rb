@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe PostsController do
-  let(:user) { build_stubbed(:user) }
+  let(:user) { create(:user) }
 
   before do
     request.env['warden'].stub authenticate!: user

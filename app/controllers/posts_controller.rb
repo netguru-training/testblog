@@ -9,6 +9,17 @@ class PostsController < ApplicationController
   def new
   end
 
+  def edit
+  end
+
+  def update
+    if post.save
+      render action: :index
+    else
+      render :new
+    end
+  end
+
   def destroy
     post.destroy
     render action: :index

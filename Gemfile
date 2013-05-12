@@ -6,6 +6,7 @@ gem "mongoid"
 gem "haml-rails"
 gem "bootstrap-sass"
 gem "devise"
+gem 'mongoid_taggable'
 gem "simple_form"
 gem "figaro"
 gem "draper"

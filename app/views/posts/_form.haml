@@ -1,4 +1,5 @@
 = simple_form_for post, html: { class: "form-horizontal" } do |f|
   = f.input :title
-  = f.input :body, as: :text
+  = f.input :body, as: :text, input_html: { cols: 50, rows: 3 }
+  = f.input :tags, as: :text, hint: "comma separated values", input_html: { cols: 50, rows: 3 }
   = f.button :submit
