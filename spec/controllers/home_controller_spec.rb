@@ -7,6 +7,11 @@ describe HomeController do
       get 'index'
       response.should be_success
     end
+
+    it "shows flash notice" do
+      controller.should_receive :display_flash_notice
+      get 'index'
+    end
   end
 
 end
