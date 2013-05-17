@@ -1,16 +1,21 @@
-## netguru workshop - test blog
+## netguru RoR workshop - test blog
 
-Twoje zadanie na dziś:
+Witaj przybyszu! Wykonałeś/aś pierwszy krok na Twojej przygodzie z programowaniem w Ruby. Jesteśmy z Ciebie dumni! Teraz czas na zadanie wstępne. Gotowy/a? 
+
+Podążaj za wskazówkami:
 
 1. sklonuj sobie repozytorium: `git clone git@github.com:netguru/easyblog.git`
-2. zainstaluj sobie odpowiednie ruby (2.0) - polecamy do tego [rvm](https://rvm.io/)  i wykonaj polecenie `bundle`
-3. odpal sobie aplikację żeby zobaczyć jak wygląda (`bundle exec rails s`)
-4. napraw zepsute testy:
+2. zainstaluj odpowiednie ruby (2.0) - polecamy do tego [rvm](https://rvm.io/) - i wykonaj polecenie `bundle`
+3. odpal aplikację i zobacz jak wygląda (`bundle exec rails s`)
+4. hmm chyba coś tu jest nie tak! napraw zepsute testy:
   * `bundle exec rspec`
   * każda naprawiona specka = 1 commit do Twojego repozytorium
-  * nie modyfikujemy specek tylko kod aplikacji!
-5. kiedy już wszystkie specki będą na zielono - umieść projekt na [heroku](https://www.heroku.com/) (start guide dostępny [tutaj](https://devcenter.heroku.com/articles/rails3))
-6. skopiuj link do aplikacji działającej na heroku  i napisz [do nas](mailto:workshops@netguru.co) o fakcie ukończenia zadania, podając linki do apki i swojego konta na githubie w treści maila 
+  * uwaga - nie modyfikujemy specek tylko kod aplikacji!
+5. widze, że świetni Ci idzie! kiedy już wszystkie specki będą na zielono - umieść projekt na [heroku](https://www.heroku.com/) (start guide dostępny [tutaj](https://devcenter.heroku.com/articles/rails3))
+6. skopiuj link do aplikacji działającej na heroku i napisz [do nas](mailto:workshops@netguru.co) o fakcie ukończenia zadania, podając linki do apki i swojego konta na githubie w treści maila 
+7. [dobra robota!] (http://1.bp.blogspot.com/-dlddnkWJ38Q/T-gwMiX6D_I/AAAAAAAAAMk/UQnpWE1ZpMI/s1600/the-very-best-of-the-success-kid-meme.jpg) wykonałeś/aś zadanie! wkrótce damy Ci znać o wyniku 
+
+Pamiętaj - ilość miejsc na warsztatach jest ograniczna więc im szybciej uporasz się z zdaniem tym lepiej. 
 
 ## co pomoże Ci w na początku Twojej przygody z Rails?
 
