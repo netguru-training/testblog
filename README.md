@@ -13,7 +13,7 @@ Podążaj za wskazówkami:
   * uwaga - nie modyfikujemy specek tylko kod aplikacji!
 5. widze, że świetni Ci idzie! kiedy już wszystkie specki będą na zielono - umieść projekt na [heroku](https://www.heroku.com/) (start guide dostępny [tutaj](https://devcenter.heroku.com/articles/rails3))
 6. skopiuj link do aplikacji działającej na heroku i napisz [do nas](mailto:workshops@netguru.co) o fakcie ukończenia zadania, podając linki do apki i swojego konta na githubie w treści maila 
-7. [dobra robota!] (http://1.bp.blogspot.com/-dlddnkWJ38Q/T-gwMiX6D_I/AAAAAAAAAMk/UQnpWE1ZpMI/s1600/the-very-best-of-the-success-kid-meme.jpg) wykonałeś/aś zadanie! wkrótce damy Ci znać o wyniku 
+7. ![dobra robota!](http://1.bp.blogspot.com/-dlddnkWJ38Q/T-gwMiX6D_I/AAAAAAAAAMk/UQnpWE1ZpMI/s1600/the-very-best-of-the-success-kid-meme.jpg) wykonałeś/aś zadanie! wkrótce damy Ci znać o wyniku 
 
 Pamiętaj - ilość miejsc na warsztatach jest ograniczna więc im szybciej uporasz się z zdaniem tym lepiej. 
 
