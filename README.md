@@ -4,11 +4,12 @@ Witaj przybyszu! Wykonałeś/aś pierwszy krok na Twojej przygodzie z programowa
 
 Podążaj za wskazówkami:
 
-1. sklonuj sobie repozytorium: `git clone git@github.com:netguru/easyblog.git`
+1. sklonuj sobie repozytorium: `git clone git@github.com:netguru/testblog.git`
 2. zainstaluj odpowiednie ruby (2.0) - polecamy do tego [rvm](https://rvm.io/) - i wykonaj polecenie `bundle`
 3. odpal aplikację i zobacz jak wygląda (`bundle exec rails s`)
 4. hmm chyba coś tu jest nie tak! napraw zepsute testy:
   * `bundle exec rspec`
+  * póki co prosimy o nie forkowanie repo - chcemy żeby każdy z Was miał równe szanse 
   * każda naprawiona specka = 1 commit do Twojego repozytorium
   * uwaga - nie modyfikujemy specek tylko kod aplikacji!
 5. widze, że świetni Ci idzie! kiedy już wszystkie specki będą na zielono - umieść projekt na [heroku](https://www.heroku.com/) (start guide dostępny [tutaj](https://devcenter.heroku.com/articles/rails3))
