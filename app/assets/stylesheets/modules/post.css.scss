@@ -1,0 +1,32 @@
+
+.post__tags-list {
+  float: left;
+  height: auto;
+  .tag, .tag:hover {
+    padding: 6px 13px;
+    font-size: 12px
+  }
+}
+
+.post__button--add, .post__button--edit {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-small;
+}
+
+.post__button--edit {
+  font-size: 12px; }
+
+.post--short-size {
+  border-bottom: 1px solid #f2f2f2; }
+
+.post--short-size {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.post--full-size {
+  .post__body {
+    margin: 15px 0;
+  }
+}

@@ -1,0 +1,22 @@
+.navbar-top {
+  .container {
+    width: 940px
+  }
+  .nav {
+    width: 100%
+  }
+  .nav .logout {
+    float: right;
+  }
+  .nav li:first-child a { padding-left: 0 }
+  .nav li:last-child a { padding-right: 0 }
+
+  .nav .active a, .nav .active a:hover {
+    @include box-shadow(none);
+    background-color: $firm;
+    border-bottom: 4px solid #16a085;
+    border-left: none;
+    color: #ffffff;
+    padding: 13px 15px 14px;
+  }
+}
