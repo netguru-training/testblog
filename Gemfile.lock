@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/pkurek/flatui-rails.git
+  revision: b8f07194c13865cdf21ee4e18058f7661694d4a7
+  specs:
+    flatui-rails (0.0.4)
+      bootstrap-sass (>= 2.2.2)
+      railties (>= 3.1)
+      sass-rails (>= 3.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -219,6 +228,7 @@ DEPENDENCIES
   email_spec
   factory_girl_rails
   figaro
+  flatui-rails!
   haml-rails
   html2haml
   hub
