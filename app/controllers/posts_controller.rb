@@ -21,7 +21,7 @@ class PostsController < ApplicationController
   end
 
   def destroy
-    post.destroy
+    post.destroy if current_user.owner? post
     render action: :index
   end
 

@@ -11,6 +11,8 @@ class User
   validates_presence_of :email
   validates_presence_of :encrypted_password
 
+  has_many :posts
+
   ## Recoverable
   field :reset_password_token,   type: String
   field :reset_password_sent_at, type: Time
@@ -30,4 +32,8 @@ class User
   attr_accessible :name, :email, :password, :password_confirmation, :remember_me, :created_at, :updated_at
 
   field :name, type: String
+
+  def owner? post
+    posts.include? post
+  end
 end
