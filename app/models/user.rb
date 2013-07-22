@@ -3,7 +3,7 @@ class User
   include Mongoid::Timestamps
 
   devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :trackable, :validatable
+  :recoverable, :rememberable, :trackable, :validatable
 
   field :email,              type: String, default: ""
   field :encrypted_password, type: String, default: ""
@@ -37,5 +37,9 @@ class User
 
   def owner? post
     posts.include? post
+  end
+
+  def to_s
+    nickname.present? ? nickname : name
   end
 end
