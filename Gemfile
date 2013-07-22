@@ -13,6 +13,7 @@ gem "draper"
 gem "decent_exposure"
 gem "decent_decoration"
 gem "pry"
+gem "flatui-rails", github: 'pkurek/flatui-rails'
 
 group :assets do
   gem 'sass-rails'
