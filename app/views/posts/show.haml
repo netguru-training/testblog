@@ -1,11 +1,11 @@
-.page-header
-  %h2
-    = post.title
-    %small
-      = post.created_at
-      = link_to "edit", edit_post_path(post)
+%h2
+  = post.title
+  %small
+    = post.created_at
+    = link_to "edit", edit_post_path(post)
 
 .post
   = post.body
-.tags
-  = post.tags
+.tagsinput
+  - post.tags_array.each do |tag|
+    = content_tag :span, tag, class: 'tag'
