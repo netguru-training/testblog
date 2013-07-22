@@ -2,8 +2,10 @@
   posts
   %small
     = "(#{posts.count})"
-  = link_to "add new", new_post_path
+  = link_to "add new", new_post_path, class: 'post__button--add pull-right'
 
-- posts.each do |post|
-  %li
-    = link_to post.title, post_path(post)
+%ol
+  - posts.each do |post|
+    %li.post--short-size
+      .post__title= link_to post.title, post_path(post)
+      .post__body= post.truncated_body
