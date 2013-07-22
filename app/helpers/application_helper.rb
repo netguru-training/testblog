@@ -12,4 +12,7 @@ module ApplicationHelper
     html.html_safe
   end
 
+  def is? controller_name
+    "active" if params[:controller] == "#{controller_name}"
+  end
 end
