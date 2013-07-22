@@ -5,9 +5,14 @@ class Post
   field :body, type: String
   field :title, type: String
   field :archived, type: Boolean, default: false
+  field :tags, type: String
 
   validates_presence_of :body, :title
 
   belongs_to :user
+
+  def tags_array
+    tags.split(',').map &:strip if tags
+  end
 
 end
