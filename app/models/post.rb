@@ -13,6 +13,10 @@ class Post
 
   default_scope ne(archived: true)
 
+  def archive!
+    update_attribute :archived, true
+  end
+
   def tags_array
     tags.split(',').map &:strip if tags
   end

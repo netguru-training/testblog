@@ -29,6 +29,8 @@ class PostsController < ApplicationController
   end
 
   def mark_archived
+    post.archive!
+    render action: :index
   end
 
   def create
