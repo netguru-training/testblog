@@ -11,6 +11,8 @@ class Post
 
   belongs_to :user
 
+  default_scope ne(archived: true)
+
   def tags_array
     tags.split(',').map &:strip if tags
   end
