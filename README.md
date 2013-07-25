@@ -16,9 +16,10 @@ Podążaj za wskazówkami:
   * użytkownik nie może głosować dwa razy na ten sam komentarz
   * aplikacja powinna być 'klikalna' (musisz dodać odpowiednie widoki do akcji)
 5. Ogólne zasady:
-  * nie forkujemy repozytorium - chcemy żeby każdy z Was miał równe szanse
+  * nie forkuj repozytorium, po sklonowaniu stwórz NOWE - chcemy żeby każdy z Was miał równe szanse
   * staraj się pisać małe, zwięzłe komity
   * nie modyfikujemy specek tylko kod aplikacji!
+6. Jeśli napotkasz trudności zawsze możesz porozmawiać o nich z innymi uczestnikami lub z którymś z coachy na [otwartym kanale](https://www.hipchat.com/gElgOYCSJ)
 5. Kiedy już wykonasz zadanie, a wszystkie testy będą przechodzić:
   * umieść projekt na [heroku](https://www.heroku.com/) (start guide dostępny [tutaj](https://devcenter.heroku.com/articles/rails3))
   * wypełnij [formularz rejestracyjny](https://docs.google.com/a/netguru.pl/forms/d/1UACYlrBSd7w1eSCpC4j8pPEeKkgWObPYc0-y84n73ng/viewform)
