@@ -34,6 +34,53 @@ describe PostsController do
   end
 
 
+  describe "GET show" do
+    let(:post)  { create(:post, user: user) }
+    let(:user2) { create(:user) }
+    let(:comment) { create(:comment, user: user2, post: post) }
+
+    before do
+      get :show, id: post.id
+    end
+
+    it "exposes posts" do
+      controller.posts.should include post
+    end
+
+    it "exposes post" do
+      controller.post.should eq post
+    end
+
+    it "exposes posts comments" do
+      controller.comments.should include comment
+    end
+
+    context "comment is abusive" do
+
+      before do
+        comment.update_attribute(:abusive, true)
+      end
+
+      context "user is an author of the post" do
+        it "should be listed on comments list" do
+          controller.comments.should include comment
+        end
+      end
+
+      context "user is not an author of the post" do
+        before do
+          request.env['warden'].stub authenticate!: user2
+          controller.stub current_user: user2
+        end
+
+        it "should not be listed on comments list" do
+          controller.comments.should_not include comment
+        end
+      end
+    end
+  end
+
+
   describe "DELETE destroy" do
 
     it "is possible only to own posts" do
