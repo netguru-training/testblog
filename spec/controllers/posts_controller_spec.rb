@@ -71,6 +71,8 @@ describe PostsController do
         before do
           request.env['warden'].stub authenticate!: user2
           controller.stub current_user: user2
+
+          get :show, id: post.id
         end
 
         it "should not be listed on comments list" do
