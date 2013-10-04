@@ -21,6 +21,16 @@ describe PostsController do
       get :index
       controller.posts.to_a.should eq [post1]
     end
+
+    it "assigns a cloud tag for existing posts" do
+      post1 = create(:post, tags: "foo,bar")
+      post2 = create(:post, tags: "foo")
+      get :index
+
+      tag_cloud = [['bar', 1.0], ['foo', 2.0]]
+
+      controller.tag_cloud.should eq tag_cloud
+    end
   end
 
   describe "POST mark_archived" do
