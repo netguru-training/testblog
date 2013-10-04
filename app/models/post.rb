@@ -5,7 +5,6 @@ class Post
   field :body, type: String
   field :title, type: String
   field :archived, type: Boolean, default: false
-  field :tags, type: String
 
   validates_presence_of :body, :title
 
@@ -15,10 +14,6 @@ class Post
 
   def archive!
     update_attribute :archived, true
-  end
-
-  def tags_array
-    tags.split(',').map &:strip if tags
   end
 
 end
