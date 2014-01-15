@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   before_filter :authenticate_user!
-  expose_decorated(:posts)
+  expose_decorated(:posts) { Post.all }
   expose_decorated(:post)
   expose(:tag_cloud) { [] }
 
