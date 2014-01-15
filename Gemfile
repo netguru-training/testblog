@@ -12,7 +12,6 @@ gem 'figaro'
 gem 'draper'
 gem 'decent_exposure'
 gem 'decent_decoration'
-gem 'pry'
 gem 'flatui-rails', github: 'pkurek/flatui-rails'
 
 group :assets do
@@ -28,12 +27,12 @@ group :development do
   gem 'binding_of_caller', platforms: [:mri_19, :rbx]
   gem 'hub', require: nil
   gem 'yell-rails'
-  gem 'pry'
 end
 
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'pry'
 end
 
 group :test do
