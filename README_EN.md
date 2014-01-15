@@ -5,7 +5,7 @@ Hello stranger! You have just taken your first step on your adventure with progr
 Follow the instructions:
 
 1. clone the repository: `git clone git@github.com:netguru/testblog.git`
-2. install an appropriate Ruby (2.0) - we recommend using [RVM](https://rvm.io/) - and run the command `bundle`
+2. install an appropriate Ruby (2.1) - we recommend using [RVM](https://rvm.io/) - and run the command `bundle`
 3. launch the app and take a look around (`bundle exec rails s`)
 4. hmm... something is wrong here! repair broken tests:
   * `bundle exec rspec`

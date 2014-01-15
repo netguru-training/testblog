@@ -5,7 +5,7 @@ Witaj przybyszu! Wykonałeś/aś pierwszy krok na Twojej przygodzie z programowa
 Podążaj za wskazówkami:
 
 1. Sklonuj repozytorium: `git clone git@github.com:netguru/testblog.git`
-2. Zainstaluj odpowiednie ruby (2.0) - polecamy do tego [rvm](https://rvm.io/) - i wykonaj polecenie `bundle`
+2. Zainstaluj odpowiednie ruby (2.1) - polecamy do tego [rvm](https://rvm.io/) - i wykonaj polecenie `bundle`
 3. Odpal aplikację i zobacz jak wygląda (`bundle exec rails s`)
 4. Twoim zadaniem będzie:
   * dodać prosty system komentarzy
