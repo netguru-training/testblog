@@ -34,7 +34,7 @@ describe Post do
     end
 
     it "is incremented by 1 when post has at least 3 comments" do
-      comments = [stub("commment1"), stub("commment2"), stub("commment2")]
+      comments = [double("commment1"), double("commment2"), double("commment2")]
       post.stub(created_at: 1.hour.ago)
       expect { post.stub(comments: comments) }.to change { post.hotness }.by(1)
     end

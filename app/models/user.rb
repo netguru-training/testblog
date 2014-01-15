@@ -30,7 +30,6 @@ class User
   index({ email: 1 }, { unique: true, background: true })
   validates :name, presence: true
   validates :nickname, uniqueness: true, if: proc { |u| u.nickname }
-  attr_accessible :name, :email, :password, :password_confirmation, :remember_me, :created_at, :updated_at, :nickname
 
   field :name, type: String
   field :nickname, type: String

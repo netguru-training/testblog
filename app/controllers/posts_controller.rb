@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
   before_filter :authenticate_user!
   expose_decorated(:posts) { Post.all }
-  expose_decorated(:post)
+  expose_decorated(:post, attributes: :post_params)
   expose(:tag_cloud) { [] }
 
   def index
@@ -30,6 +30,7 @@ class PostsController < ApplicationController
   end
 
   def mark_archived
+    # post = Post.find params[:id]
     post.archive!
     render action: :index
   end
@@ -42,4 +43,10 @@ class PostsController < ApplicationController
     end
   end
 
+  private
+
+  def post_params
+    return if %w{mark_archived}.include? action_name
+    params.require(:post).permit(:body, :title, :tags)
+  end
 end

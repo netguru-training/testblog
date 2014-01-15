@@ -4,13 +4,12 @@ require File.expand_path('../boot', __FILE__)
 # require "active_record/railtie"
 require "action_controller/railtie"
 require "action_mailer/railtie"
-require "active_resource/railtie"
 require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
-  Bundler.require(*Rails.groups(:assets => %w(development test)))
+  Bundler.require(:default, Rails.env)
   # If you want your assets lazily compiled in production, use this line
   # Bundler.require(:default, :assets, Rails.env)
 end
@@ -52,6 +51,8 @@ module Easyblog
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    config.i18n.enforce_available_locales = true
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"

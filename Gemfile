@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'mongoid'
 gem 'haml-rails'
@@ -14,11 +14,9 @@ gem 'decent_exposure'
 gem 'decent_decoration'
 gem 'flatui-rails', github: 'pkurek/flatui-rails'
 
-group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
-  gem 'uglifier'
-end
+gem 'sass-rails'
+gem 'coffee-rails'
+gem 'uglifier'
 
 group :development do
   gem 'html2haml'
