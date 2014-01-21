@@ -10,11 +10,12 @@ Follow the instructions:
 4. Your job is to:
     * add a simple comment system
     * add a simple voting system (vote_up / vote_down is enough)
-    * in the post view the date should be formatted like so – "21/07/2013 : 14:10"
+    * in the post view the date should be formatted like so – `21/07/2013 : 14:10`
     * after receiving three negative votes the comemnt should be marked as abusive and hidden from the user
     * that comment should still be visible to the author of the post on the comments list, the author should be able to cancel the 'abusive' state
     * user can't vote twice for the same comment
     * all those actions should be accessible through the app interface (you need to add/modify views - fixing the unit tests is not enough)
+    * :exclamation: all specs should be green :green_heart:
 5. General rules:
     * don't fork the repository. Clone it and make a new one – we want all of you to have equal chances
     * try writing small, self-containing commits
