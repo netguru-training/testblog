@@ -61,7 +61,7 @@ How to start?
     21:02:07 - INFO - rspec guard added to Guardfile, feel free to edit it
     ```
 
-3. Run guard command. Now this console/terminal/cmd tab will watch all files in project's directory untill you terminate it (`control+c on OS X`). You should see this console output:
+3. Run `guard` command. Now this console/terminal/cmd tab will watch all files in project's directory untill you terminate it (`control+c on OS X`). You should see this console output:
 
     ```
     21:02:18 - INFO - Guard is using TerminalTitle to send notifications.
