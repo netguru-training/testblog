@@ -23,7 +23,7 @@ Follow the instructions:
 6. If you run into any difficulties you can always talk about them with other participants or one of the coaches on our [open channel](https://www.hipchat.com/gElgOYCSJ)
 7. I see that you're doing great! When all tasks are done and the specs are green:
     * put the project on [Heroku](https://www.heroku.com/) (starter guide available [here](https://devcenter.heroku.com/articles/rails3))
-    * fill out the [registration form](https://docs.google.com/forms/d/12o5KZJfFZMgnKOPiDhiFl94K74yDIdbVlxpGhk3-ecM/viewform)
+    * fill out the [registration form](https://docs.google.com/forms/d/1UACYlrBSd7w1eSCpC4j8pPEeKkgWObPYc0-y84n73ng/viewform)
 8. Splendid! You've finished the task. We will soon let you know about the result.
 
 Remember – there is a lmited number of attendees, so the sooner you complete the task the better your chances are.
