@@ -66,7 +66,7 @@ How to start?
     ```
     21:02:18 - INFO - Guard is using TerminalTitle to send notifications.
     21:02:18 - INFO - Guard::RSpec is running
-    21:02:18 - INFO - Guard is now watching at '/path_where_you_cloned_this_repo/tests/testblog'
+    21:02:18 - INFO - Guard is now watching at '/path_where_you_cloned_this_repo/testblog'
     ```
 
 4. Go write some code and get notified about your progress on live with guard!
