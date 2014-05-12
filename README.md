@@ -1,6 +1,6 @@
 ## netguru RoR workshop - test blog
 
-Hello stranger! You have just taken your first step on your adventure with programming in Ruby. We are proud of you! Now, we challenge you to complete the following task. Ready, steady...
+Hello stranger! You have just taken your first step on your adventure with programming in RoR. We are proud of you! Now, we challenge you to complete the following task. Ready, steady...
 
 Follow the instructions:
 
